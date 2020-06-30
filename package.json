@@ -41,18 +41,18 @@
     "babel-jest": "^23.6.0",
     "eslint": "^5.10.0",
     "eslint-config-amex": "^9.0.0",
-    "firebase": "^5.8.2",
     "jest": "^23.6.0",
     "jest-dom": "^3.0.0",
     "microbundle": "^0.9.0",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "react-testing-library": "^5.8.0",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "firebase": "latest"
   },
   "peerDependencies": {
-    "firebase": "^5.8.2",
-    "react": "^16.8.0"
+    "react": "^16.8.0",
+    "firebase": "latest"
   },
   "jest": {
     "coverageThreshold": {
@@ -65,7 +65,7 @@
     }
   },
   "dependencies": {
-    "@use-firebase/app": "^0.3.1",
+    "@use-firebase/app": "sorja/use-firebase-app#prebuilt",
     "prop-types": "^15.7.2"
   }
 }
